@@ -6,7 +6,7 @@
     <body>
         <?php
         $randNum = rand(1,12);
-        echo "<h2>Times Table $randNum x $randNum</h2>";
+        echo "<h1>Times Table from 1 to $randNum</h1>";
         echo "<table border='1px' style='border-collapse: collapse'>";
         
         echo "<tr style='font-weight: bold;'>";
