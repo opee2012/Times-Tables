@@ -10,7 +10,6 @@
         <style>
             td {
                 padding: 3px;
-                border-collapse: collapse;
             }
         </style>
 
@@ -19,7 +18,7 @@
         <?php
         $randNum = rand(1,12);
         echo "<h1>Times Table from 1 to $randNum</h1>";
-        echo "<table border='1px'>";
+        echo "<table border='1px'; style='border-collapse: collapse'>";
         
         echo "<tr style='font-weight: bold;'>";
             echo "<td></td>";
