@@ -16,7 +16,7 @@
     </head>
     <body>
         <?php
-        $randNum = rand(1,12);
+        $randNum = rand(1,26);
         echo "<h1>Times Table from 1 to $randNum</h1>";
         echo "<table border='1px'; style='border-collapse: collapse'>";
         
